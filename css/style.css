@@ -1350,6 +1350,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endCol
 
   }
 }
+/* prevent background image from stretching */
+@media (min-width: 1201px) {
+  .slider_area .single_slider {
+    background-size: 1400px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}
 /*** CUSTOMIZED CSS ENDS ***/
 
 /* line 17, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_slider.scss */
