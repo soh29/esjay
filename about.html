@@ -133,7 +133,25 @@
                             <h4>Esjay is a programmer, musician, and maker.</h4>
                             <p>
                             This website is his attempt to document his projects, big or small, in the hopes of archiving them and passing on knowledge gained to others.</p>
+
+                            <h2>Fun fact</h2>
+                            <p>It has been 
+                            	<script>
+                            		const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+									const quitSmokingDate = new Date(2020, 5, 6);
+									const diffDays = Math.round(Math.abs((Date.now() - quitSmokingDate) / oneDay));
+                            		document.write(diffDays);
+                            	</script>
+                            days since he stopped drinking and 
                             
+                            	<script>
+									const quitDrinkingDate = new Date(2015, 1, 1);
+									const diffDate = new Date(Date.now() - quitDrinkingDate)
+									const diffYears = Math.abs(diffDate.getUTCFullYear() - 1970);
+
+                            		document.write(diffYears);
+                            	</script>
+                            years since he stopped smoking.</p>
                             <div class="signature">
                                 <img src="img/about/signature.png" alt="">
                             </div>
