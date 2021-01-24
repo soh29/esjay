@@ -1539,6 +1539,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
   background-image: url(../img/banner/bradcam_2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   position: relative;
   z-index: 2;
 }
