@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(.active) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+<div class="logo" style="text-align: center;">
+  <a href=index.html>
+    <img src="logo.png" style="width:500px; vertical-align: bottom;">
+  </a>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="1.html">소개</a>
+  <a href="2.html" class="active">주요사업</a>
+  <a href="3.html">알림마당</a>
+  <a href="4.html">자료실</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="margin: 16px">
+  <table border=1>
+      <tr">
+        <td width=150 >평생교육원</td>
+        <td>1) 전문지도사 양성
+ 2) 교육원, 훈련원, 수련원, 연수원 등
+ 3) 온라인+오프라인 병행 실시간 원격영상 교육
+ 4) 체험학습지도사, 방과후아동지도사, 자기주도학습지도사, 학교폭력
+    예방관리사, 심리상담지도사, 동물보호관리사 등 공인자격과정운영</td>
+      </tr>
+
+      <tr>
+        <td>창의 체험학교</td>
+        <td>학술활동 : 과학탐구, 역사탐구, 다문화탐구, 신문활동, 외국어 등
+문화예술활동 : 문예, 회화, 성악, 뮤지컬, 연극, 방송 등
+스포츠활동 : 승마, 구기운동, 수영, 육상, 무술 등
+실습노작활동 : 체험, 요리, 설계, 목공, 공예, 조립, 로봇제작 등
+청소년단체활동 : 동아리활동, 스카우트, 걸스카우트, 우주소년단 등</td>
+      </tr>
+
+      <tr>
+        <td>학교폭력예방학교</td>
+        <td>1) 학교 내에서 학생간에 발생한 상해, 폭행, 감금, 협박, 약취/유인, 
+     명예 훼손/모욕, 공갈, 강요 및 성폭력, 따돌림, 정보통신망을 이용한 
+     음란/폭력 등에 의해 신체 정신 또는 재산상의 피해를 수반하는 행
+     위 예방교육
+ 2) 학생,교사,학부모 년2회 의무교육실시</td>
+      </tr>
+
+
+      <tr>
+        <td>국제청소년성취포상제</td>
+        <td>국제청소년성취포상제는 1956년 영국 에딘버러 공작에 의해 처음 시작되어 전 세계 131개국, 600만 명의 청소년이 참여하고 있는 프로그램으로, 만14-25세 사이의 청소년들이 신체단련, 자기개발, 봉사 및 탐험 활동을 통해 그들의 잠재력을 최대한 개발하여 지역 및 세계 사회에 이바지하는 세계시민으로 성장하도록 돕는 프로그램입니다.</td>
+      </tr>
+
+      <tr>
+        <td>스마트러닝센터</td>
+        <td>오프라인 같은 온라인 원격수업으로 전국 어디서나 최고의 교육이 가능한 시스템으로 도시와 농•어촌간의 교육격차 해소와 사교육비 절감 그리고 원어민 해소에 많은 도움이 될 교육시스템입니다.</td>
+      </tr>
+
+      <tr>
+        <td>아름다운 기부문화</td>
+        <td>개인, 기업체, 단체 등 조금씩 정성을 모아 미래를 짊어질 청소년 기금을 마련 국가발전에 이바지할 수 있는 기금 마련
+</td>
+      </tr>
+
+      <tr>
+        <td>청소년상담1388</td>
+        <td>상담전문가와의 1:1, 집단 연결을 통해서 청소년들이 겪고 있는 심리적 어려움에 대해 도움을 받을 수 있으며, 가족·대인관계·진로·학업 등 다양한 영역에 대한 상담서비스를 이용할 수 있습니다.</td>
+      </tr>
+  </table>
+
+
+</div>
+
+<div class="footer" style="text-align: center;">
+  <p>상호: 사)청소년사회상담교육개발원<br>우: 410-837. 경기도 고양시 일산동구 무궁화로 7-63, 408호 (장항동, 우인아크리움빌II차)<br>사업자등록번호: 305-82-10414<br>전화: 031-929-7896, 팩스: 031-929-7897, e-mail: ssss321@empas.com<br>Copyright 2022 사)청소년사회상담교육개발원. All Right Reserved. </p>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
